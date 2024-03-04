@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <title>Calc</title>
+  </head>
+  <body>
+    <h1>Very elegant calculator</h1>
+    <form action='/calc' method='GET'>
+      <div>
+        <label for='a_num'>a</label>
+        <input name='a_num' id='a_num' type='number' />
+      </div>
+      <div>
+        <select name='operation'>
+          <option value='+' selected>+</option>
+          <option value='-'>-</option>
+        </select>
+      </div>
+      <div>
+        <label for='b_num'>b</label>
+        <input name='b_num' id='b_num' type='number' />
+      </div>
+      <div>
+        <button>Calc</button>
+      </div>
+    </form>
+  </body>
+</html>
